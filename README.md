@@ -41,3 +41,19 @@ To set up the required web environment on the VPS, I installed Apache2 as the we
 ```
 
 <img width="671" height="244" alt="Screenshot 2025-07-17 194450" src="https://github.com/user-attachments/assets/dbf6bcb8-6224-4f0f-ab9b-9f895bfc170a" />
+
+# Login to MySQL as root:
+
+```bash
+   sudo mysql -u root -p
+```
+
+Inside the MySQL shell, run the following commands:
+
+```bash
+   CREATE DATABASE dvwa;
+CREATE USER 'dvwa'@'localhost' IDENTIFIED BY 'dvwa';
+GRANT ALL PRIVILEGES ON dvwa.* TO 'dvwa'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+```
