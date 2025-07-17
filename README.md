@@ -11,7 +11,7 @@ To set up the required web environment on the VPS, I installed Apache2 as the we
 
 
 
-# Update  last momonets for your system
+# Final System Update Before Setup
 
 ```bash
    sudo apt update && sudo apt upgrade -y
