@@ -57,3 +57,23 @@ GRANT ALL PRIVILEGES ON dvwa.* TO 'dvwa'@'localhost';
 FLUSH PRIVILEGES;
 EXIT;
 ```
+
+# Verifying the MySQL Database, User, and Privileges
+Show existing databases (check that dvwa exists):
+
+```bash
+SHOW DATABASES;
+```
+
+Check that the user dvwa exists:
+
+```bash
+SELECT user, host FROM mysql.user;
+```
+<img width="517" height="277" alt="image" src="https://github.com/user-attachments/assets/973c106c-fa61-413d-90a9-2e325d74c28e" />
+
+
+Check the user's privileges:
+```bash
+SHOW GRANTS FOR 'dvwa'@'localhost';
+```
