@@ -11,7 +11,7 @@ To set up the required web environment on the VPS, I installed Apache2 as the we
 
 
 
-Checking versions and the status of the virtual machine on Linux:
+# Update  last momonets for your system
 
 ```bash
    sudo apt update && sudo apt upgrade -y
@@ -34,6 +34,10 @@ Checking versions and the status of the virtual machine on Linux:
 ```bash
    sudo apt install mysql-server -y
 ```
+# Checking MySQL Service Status
 
+```bash
+   sudo systemctl status mysql
+```
 
-![Снимок экрана 2025-04-20 204035](https://github.com/user-attachments/assets/313cde04-e4a0-4597-a030-5c6e13e50e56)
+<img width="671" height="244" alt="Screenshot 2025-07-17 194450" src="https://github.com/user-attachments/assets/dbf6bcb8-6224-4f0f-ab9b-9f895bfc170a" />
