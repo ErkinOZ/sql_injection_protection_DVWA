@@ -198,6 +198,9 @@ The next step is to take these password hashes and attempt to crack them using t
 
 # Save the hashes to a file
 
+```bash
+nano hashes.txt
+```
 
 <img width="1365" height="435" alt="Screenshot 2025-07-17 234503" src="https://github.com/user-attachments/assets/67fc5d60-ef50-4bad-9f56-e9c89550f02e" />
 
