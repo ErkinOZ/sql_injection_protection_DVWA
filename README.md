@@ -212,3 +212,12 @@ john --format=raw-md5 hashes.txt --wordlist=/usr/share/wordlists/rockyou.txt
 - --format=raw-md5 is used because DVWA stores passwords as plain MD5 hashes.
 
 - rockyou.txt is a popular password wordlist pre-installed in Kali Linux.
+
+
+<img width="1365" height="438" alt="Screenshot 2025-07-17 235018" src="https://github.com/user-attachments/assets/fc9712cf-153e-4853-ad06-edd6ae3bb8db" />
+
+# View the cracked passwords:
+
+<img width="1365" height="438" alt="Screenshot 2025-07-17 235018" src="https://github.com/user-attachments/assets/ff3383ab-4c87-41fc-b1f0-7e695d5c1535" />
+
+
