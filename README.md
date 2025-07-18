@@ -64,6 +64,8 @@ Show existing databases (check that dvwa exists):
 ```bash
 SHOW DATABASES;
 ```
+<img width="667" height="482" alt="Screenshot 2025-07-17 194904" src="https://github.com/user-attachments/assets/354a66a7-c67c-4436-96f9-32728365d45b" />
+
 
 Check that the user dvwa exists:
 
