@@ -191,3 +191,9 @@ The goal was to extract usernames and password hashes, and then try to crack the
 ```
 <img width="1359" height="475" alt="Screenshot 2025-07-17 211721" src="https://github.com/user-attachments/assets/da8308f1-cfce-4550-a6ff-900e01c12e6a" />
 
+I was able to exploit the SQL Injection vulnerability in DVWA and retrieve usernames along with their hashed passwords (most of them in MD5 format).
+This shows that the application is not sanitizing input, allowing me to inject arbitrary SQL and extract sensitive data from the users table.
+
+The next step is to take these password hashes and attempt to crack them using tools like John the Ripper or Hashcat.
+
+
