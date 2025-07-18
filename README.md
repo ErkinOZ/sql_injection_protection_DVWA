@@ -112,3 +112,25 @@ http://<your-vps-ip>/DVWA
 
 <img width="646" height="577" alt="Screenshot 2025-07-17 201459" src="https://github.com/user-attachments/assets/603a8034-7654-43af-9803-e183a4ac4e88" />
 
+Purpose of MySQL and DVWA in SQL Injection Testing
+In this setup:
+
+MySQL serves as the backend database where all user information, credentials, and vulnerable data are stored.
+
+DVWA (Damn Vulnerable Web Application) is a deliberately insecure web application created for security professionals to practice penetration testing and exploit common vulnerabilities.
+
+When testing SQL Injection, DVWA sends user-supplied input from its web interface to the MySQL database via SQL queries.
+
+If the input is not properly sanitized, an attacker can inject malicious SQL code, allowing them to:
+
+Extract sensitive data from the database,
+
+Bypass authentication,
+
+Modify or delete records,
+
+Execute administrative database commands.
+
+
+# Example Flow of SQL Injection.
+
