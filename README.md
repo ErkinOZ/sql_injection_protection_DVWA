@@ -123,16 +123,10 @@ When testing SQL Injection, DVWA sends user-supplied input from its web interfac
 
 If the input is not properly sanitized, an attacker can inject malicious SQL code, allowing them to:
 
-Extract sensitive data from the database,
-
-Bypass authentication,
-
-Modify or delete records,
-
-Execute administrative database commands.
-
-<img width="655" height="490" alt="Screenshot 2025-07-17 203246" src="https://github.com/user-attachments/assets/d8de6611-580e-44dc-bfdb-4c5cb0825fbe" />
-
+- Extract sensitive data from the database,
+- Bypass authentication,
+- Modify or delete records,
+- Execute administrative database commands.
 
 I set the DVWA security level to "low" in order to demonstrate how SQL Injection works in an environment without any security measures.
 This allows me to exploit the vulnerability and test how malicious input can manipulate SQL queries when user input is not properly validated or sanitized.
