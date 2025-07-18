@@ -174,8 +174,6 @@ Inside this file, I found the following SQL query:
 $query  = "SELECT first_name, last_name FROM users WHERE user_id = '$id';";
 
 ```
-
-# After this, i can extract useful information using the following SQL injection payloads:
 Which database is currently in use:
 
 ```bash
