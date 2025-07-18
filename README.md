@@ -97,6 +97,9 @@ sudo chown -R www-data:www-data DVWA
 sudo chmod -R 755 DVWA
 ```
 
+<img width="612" height="345" alt="Screenshot 2025-07-17 200617" src="https://github.com/user-attachments/assets/44f3305d-4b7d-4bef-9fa2-81ba0064063b" />
+
+
 Restart Apache
 ```bash
 sudo systemctl restart apache2
