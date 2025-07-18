@@ -184,8 +184,10 @@ Which database is currently in use:
 <img width="998" height="447" alt="Screenshot 2025-07-17 210715" src="https://github.com/user-attachments/assets/61182aad-d10a-4036-ba08-f1ef57330c59" />
 
 # Next I Using my Kali Linux VM, I connected to the DVWA over the internet and started testing SQL Injection attacks via the User ID input.
-The goal was to extract usernames and password hashes, and then try to crack them — all in a legal, controlled lab setup for educational purposes.
+The goal was to extract usernames and password hashes, and then try to crack them - all in a legal, controlled lab setup for educational purposes.
 
-
+```bash
+1' UNION SELECT user, password FROM users -- 
+```
 <img width="1359" height="475" alt="Screenshot 2025-07-17 211721" src="https://github.com/user-attachments/assets/da8308f1-cfce-4550-a6ff-900e01c12e6a" />
 
