@@ -80,3 +80,6 @@ Check the user's privileges:
 ```bash
 SHOW GRANTS FOR 'dvwa'@'localhost';
 ```
+
+<img width="642" height="215" alt="Screenshot 2025-07-17 200124" src="https://github.com/user-attachments/assets/51e8e8d4-b042-4423-9ee0-a9ce9f91ad25" />
+
