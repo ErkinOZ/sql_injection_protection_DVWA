@@ -109,3 +109,6 @@ Access DVWA in Browser:
 http://<your-vps-ip>/DVWA
 
 <img width="674" height="344" alt="Screenshot 2025-07-17 200425" src="https://github.com/user-attachments/assets/dd0de6e7-c2d9-4b55-9dbb-e0f24201150f" />
+
+<img width="646" height="577" alt="Screenshot 2025-07-17 201459" src="https://github.com/user-attachments/assets/603a8034-7654-43af-9803-e183a4ac4e88" />
+
