@@ -70,7 +70,8 @@ Check that the user dvwa exists:
 ```bash
 SELECT user, host FROM mysql.user;
 ```
-<img width="517" height="277" alt="image" src="https://github.com/user-attachments/assets/973c106c-fa61-413d-90a9-2e325d74c28e" />
+<img width="517" height="277" alt="Screenshot 2025-07-17 195553" src="https://github.com/user-attachments/assets/fff377b1-af2f-41cb-a058-8b2b919762b7" />
+
 
 
 Check the user's privileges:
