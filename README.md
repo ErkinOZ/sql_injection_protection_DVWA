@@ -131,6 +131,18 @@ Modify or delete records,
 
 Execute administrative database commands.
 
+<img width="655" height="490" alt="Screenshot 2025-07-17 203246" src="https://github.com/user-attachments/assets/d8de6611-580e-44dc-bfdb-4c5cb0825fbe" />
+
+
+I set the DVWA security level to "low" in order to demonstrate how SQL Injection works in an environment without any security measures.
+This allows me to exploit the vulnerability and test how malicious input can manipulate SQL queries when user input is not properly validated or sanitized.
+
+<img width="901" height="487" alt="Screenshot 2025-07-17 203328" src="https://github.com/user-attachments/assets/61245eb0-d379-4235-a542-abbfe2159840" />
 
 # Example Flow of SQL Injection.
+Attacker enters:
 
+```bash
+1' OR '1'='1
+```
+in the User ID field of DVWA.
