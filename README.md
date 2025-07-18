@@ -170,6 +170,8 @@ There, I located the low.php file responsible for handling the SQL Injection vul
 Inside this file, I found the following SQL query:
 <img width="1277" height="361" alt="Screenshot 2025-07-17 205930" src="https://github.com/user-attachments/assets/79d64f0f-3cf6-4823-9c2b-44b25f3ea2eb" />
 
+Since this query selects exactly two columns, my UNION SELECT injection must also return exactly two columns. If I use more or fewer columns in the payload, the query fails due to a column mismatch.
+
 ```bash
 $query  = "SELECT first_name, last_name FROM users WHERE user_id = '$id';";
 
