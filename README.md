@@ -133,6 +133,13 @@ This allows me to exploit the vulnerability and test how malicious input can man
 
 <img width="901" height="487" alt="Screenshot 2025-07-17 203328" src="https://github.com/user-attachments/assets/61245eb0-d379-4235-a542-abbfe2159840" />
 
+
+# i navigate to the SQL Injection section in DVWA.
+In the User ID input field, we enter the following payload to test for a basic SQL Injection vulnerability:
+
+<img width="898" height="421" alt="Screenshot 2025-07-17 203618" src="https://github.com/user-attachments/assets/21f86055-e5fe-4d6e-898e-e096be90c2ff" />
+
+
 # Example Flow of SQL Injection.
 Attacker enters:
 
@@ -140,3 +147,8 @@ Attacker enters:
 1' OR '1'='1
 ```
 in the User ID field of DVWA.
+
+<img width="615" height="405" alt="Screenshot 2025-07-17 203815" src="https://github.com/user-attachments/assets/2a8de17a-1936-412d-a4d1-0769914df6bb" />
+
+
+
