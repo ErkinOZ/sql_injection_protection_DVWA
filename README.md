@@ -150,5 +150,8 @@ in the User ID field of DVWA.
 
 <img width="615" height="405" alt="Screenshot 2025-07-17 203815" src="https://github.com/user-attachments/assets/2a8de17a-1936-412d-a4d1-0769914df6bb" />
 
+As a result, we see that multiple user records were returned — even though we only entered one input.
+This confirms that the application is vulnerable to SQL Injection. The payload 1' OR '1'='1 modified the SQL query logic, causing it to return all users in the database instead of just one.
 
+This demonstrates how an attacker could bypass authentication or steal sensitive data without proper access.
 
