@@ -217,4 +217,20 @@ john --format=raw-md5 hashes.txt --wordlist=/usr/share/wordlists/rockyou.txt
 
 <img width="1365" height="438" alt="Screenshot 2025-07-17 235018" src="https://github.com/user-attachments/assets/fc9712cf-153e-4853-ad06-edd6ae3bb8db" />
 
+# Verifying Password Hashes in the SQL Database
+
+```bash
+mysql -u dvwauser -p
+```
+Then select the DVWA database:
+
+```bash
+USE dvwa;
+```
+Now, run the following query to view stored hashes:
+
+```bash
+SELECT user, password FROM users;
+```
+
 
