@@ -83,3 +83,26 @@ SHOW GRANTS FOR 'dvwa'@'localhost';
 
 <img width="642" height="215" alt="Screenshot 2025-07-17 200124" src="https://github.com/user-attachments/assets/51e8e8d4-b042-4423-9ee0-a9ce9f91ad25" />
 
+
+Clone the DVWA Repository:
+
+```bash
+cd /var/www/html
+sudo git clone https://github.com/digininja/DVWA.git
+```
+
+Set Permissions
+```bash
+sudo chown -R www-data:www-data DVWA
+sudo chmod -R 755 DVWA
+```
+
+Restart Apache
+```bash
+sudo systemctl restart apache2
+```
+
+Access DVWA in Browser:
+http://<your-vps-ip>/DVWA
+
+<img width="674" height="344" alt="Screenshot 2025-07-17 200425" src="https://github.com/user-attachments/assets/dd0de6e7-c2d9-4b55-9dbb-e0f24201150f" />
